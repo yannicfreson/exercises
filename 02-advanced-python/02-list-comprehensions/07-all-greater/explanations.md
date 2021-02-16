@@ -3,7 +3,7 @@
 List comprehensions allow multiple `for` clauses. For example:
 
 ```python
->>> [ (x, y) for x in ['a', 'b'] for y in ['1, '2'] ]
+>>> [ (x, y) for x in ['a', 'b'] for y in ['1', '2'] ]
 [('a', '1'), ('a', '2'), ('b', '1'), ('b', '2')]
 ```
 
